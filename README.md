@@ -1,12 +1,12 @@
 # Stock Sentiment & Price Movement Analysis
 
 ## Overview
-This research project investigates whether social media sentiment data can predict short-term stock price movements across different market sectors. By combining historical stock data with sentiment scores, the project explores the relationship between investor sentiment and percent changes in stock prices.
+This research project investigates whether public sentiment data can predict short-term stock price movements across different market sectors. By combining historical stock data with sentiment scores, the project explores the relationship between investor sentiment and percent changes in stock prices.
 
 ## Key Features
 - Collects historical stock data for multiple sectors using `yfinance`.
 - Calculates daily percent changes in **Open** and **Close** prices.
-- Merges stock price changes with sentiment data from social media sources.
+- Merges stock price changes with sentiment data from Fidelity.
 - Analyzes the predictive power of sentiment using logistic regression.
 - Exports cleaned and processed data to Excel for further analysis.
 
@@ -14,4 +14,6 @@ This research project investigates whether social media sentiment data can predi
 - Determine if positive or negative sentiment correlates with short-term price movements.
 - Compare predictive accuracy across different market sectors.
 - Provide a reproducible framework for combining sentiment analysis with financial data.
+
+This code was written during high school as part of the AP Capstone Research Program. Due to time constraints and a lack of experience, the model exhibits some inefficiencies and lacks sufficient data.
 
